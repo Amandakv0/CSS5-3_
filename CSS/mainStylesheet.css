@@ -1,0 +1,76 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.mainContentWrapper{
+    display: flex;
+}
+.topNavBar, .leftSideBar{
+    background-color: #E7EEFF;
+}
+.navBarsDiv{
+    display: flex;
+    width: 100%;
+}
+.topNavBar{
+    display: flex;
+    padding: 26px 0px;
+    
+    padding-right: 5px;
+    width: 100%;
+    justify-content: space-between;
+    height: 80px;/*es wasvahlo*/
+    align-items: center;
+}
+.leftSideBar{
+    display: flex;
+    flex-direction: column;
+    padding: 12px 28px 0px 28px;/*amas davubrunde*/
+    width: 104px;
+    align-items: center;
+    gap: 24px;
+}
+.companyLogo{
+    width: 48px;
+    height: 48px;
+    border-bottom: 1px solid #002B81;
+}
+.logo{
+    width: 24px;
+    height: 24px;
+}
+
+.leftPart{
+    justify-content: flex-start;
+}
+.rightPart{
+    justify-content: flex-end;
+}
+.rightPart, .leftPart{
+    display: flex;
+    gap: 12px;
+    align-items: center;
+}
+
+.avatar{
+    width: 40px;
+    height: 40px;
+}
+.blackText{
+    color: #000;
+    font-size: 16px;
+}
+.greyText{
+    color: #5E6577;
+    font-size: 16px;
+}
+
+.detailedInfoDiv{
+    display: flex;
+    width: 100%;
+    max-width: 1144px;
+    height: 400px;
+    border: 2px solid black;
+}
